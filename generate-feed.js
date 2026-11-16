@@ -2,7 +2,7 @@ const fs = require('fs');
 
 const STORE = 'https://photoworldlab.co.za';
 const DEFAULT_STOCK_LEVEL = 5;
-const INCLUDE_GTIN = false; // set true only if PriceCheck's spec lists a GTIN/barcode tag
+const INCLUDE_GTIN = false;
 
 const EXCLUDE = [
   'banner', 'banners', 'flag', 'flags', 'bunting', 'gazebo', 'trophy', 'trophies',
@@ -13,13 +13,39 @@ const EXCLUDE = [
 ];
 const excludeRe = new RegExp('\\b(' + EXCLUDE.join('|') + ')\\b', 'i');
 
+const BRANDS = [
+  'Canon', 'Sony', 'Nikon', 'Panasonic', 'Fujifilm', 'Olympus', 'Pentax', 'Ricoh', 'Leica',
+  'Hasselblad', 'DJI', 'GoPro', 'Insta360', 'Godox', 'Yongnuo', 'Neewer', 'Viltrox', 'Profoto',
+  'Metz', 'Nissin', 'Benro', 'JOBY', 'Zhiyun', 'Manfrotto', 'Gitzo', 'Sirui', 'Vanguard',
+  'Hahnel', 'Sigma', 'Tamron', 'Tokina', 'Samyang', 'Rokinon', '7Artisans', 'Meike', 'Hoya',
+  'Kenko', 'SanDisk', 'Lexar', 'Kingston', 'Rode', 'BOYA', 'Sennheiser', 'Saramonic',
+  'Lowepro', 'Tenba', 'Peak Design', 'Blackmagic', 'Atomos', 'Kodak', 'Ilford', 'Epson'
+];
+const ALIASES = { fuji: 'Fujifilm' };
+const brandRe = new RegExp('\\b(' + [...BRANDS, ...Object.keys(ALIASES)]
+  .map((b) => b.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')\\b', 'ig');
+
+function detectBrand(title, vendor) {
+  brandRe.lastIndex = 0;
+  const m = brandRe.exec(title);
+  if (m) {
+    const found = m[1].toLowerCase();
+    if (ALIASES[found]) return ALIASES[found];
+    return BRANDS.find((b) => b.toLowerCase() === found) || m[1];
+  }
+  return vendor;
+}
+
 const esc = (s) => String(s ?? '')
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
   .replace(/"/g, '&quot;').replace(/'/g, '&apos;');
 
+const csv = (s) => `"${String(s ?? '').replace(/"/g, '""')}"`;
+
 const clean = (html) => String(html ?? '')
   .replace(/<[^>]*>/g, ' ')
   .replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&')
+  .replace(/Â/g, '').replace(/,º/g, '°').replace(/º/g, '°')
   .replace(/\?{2,}/g, '')
   .replace(/\s+/g, ' ').trim()
   .slice(0, 500);
@@ -57,6 +83,7 @@ async function fetchAll() {
   const products = await fetchAll();
   let count = 0, skipped = 0, noModel = 0;
   const offers = [];
+  const missing = new Map();
 
   for (const p of products) {
     const ov = overrides[p.handle] || {};
@@ -74,9 +101,12 @@ async function fetchAll() {
       const img = (p.images || []).find((i) => (i.variant_ids || []).includes(v.id)) || (p.images || [])[0];
       if (!img) continue;
 
-      const brand = ov.brand || p.vendor;
+      const brand = ov.brand || detectBrand(p.title, p.vendor);
       const model = ov.mpn || v.sku || '';
-      if (!model) noModel++;
+      if (!model) {
+        noModel++;
+        if (!missing.has(p.handle)) missing.set(p.handle, { title: p.title, brand });
+      }
 
       offers.push(`  <Offer>
     <ProductName>${esc(name)}</ProductName>
@@ -97,5 +127,9 @@ async function fetchAll() {
   fs.mkdirSync('docs', { recursive: true });
   fs.writeFileSync('docs/feed.xml',
     `<?xml version="1.0" encoding="UTF-8"?>\n<Offers>\n${offers.join('\n')}\n</Offers>\n`);
-  console.log(`Offers: ${count} | Excluded: ${skipped} | Without model number: ${noModel}`);
+
+  const rows = [...missing.entries()].map(([h, m]) => `${csv(h)},${csv(m.title)},${csv(m.brand)}`);
+  fs.writeFileSync('docs/needs-data.csv', `handle,title,brand\n${rows.join('\n')}\n`);
+
+  console.log(`Offers: ${count} | Excluded: ${skipped} | Without model number: ${noModel} | Products needing data: ${missing.size}`);
 })();
