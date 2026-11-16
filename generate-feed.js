@@ -10,7 +10,9 @@ const EXCLUDE = [
   'boot', 'boots', 'jacket', 'jackets', 't-shirt', 't-shirts', 'jeans', 'hat', 'hats',
   'regalia', 'backdrop', 'branded', 'branding', 'printing', 'id card', 'fog machine',
   'custom', 'mug', 'mugs', 'photo frames', 'certificate', 'certificates', 'booklets',
-  'shark fins', 'umbrella', 'engraving', 'chip boards', 'diary'
+  'shark fins', 'umbrella', 'engraving', 'chip boards', 'diary',
+  'heat press', 'photo booth', 'photo booths', 'correx', 'snow globe', 'foldable',
+  'contravision', 'capcut', 'laminating', 'facade', 'megaphone'
 ];
 const excludeRe = new RegExp('\\b(' + EXCLUDE.join('|') + ')\\b', 'i');
 
