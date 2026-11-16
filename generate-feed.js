@@ -7,9 +7,10 @@ const INCLUDE_GTIN = false;
 const EXCLUDE = [
   'banner', 'banners', 'flag', 'flags', 'bunting', 'gazebo', 'trophy', 'trophies',
   'medal', 'medals', 'calendar', 'calendars', 'lanyard', 'lanyards', 'bib', 'bibs',
-  'boots', 'jacket', 'jackets', 't-shirt', 't-shirts', 'jeans', 'hat', 'hats',
-  'regalia', 'backdrop', 'branded', 'printing', 'id card', 'fog machine',
-  'custom', 'mug', 'photo frames'
+  'boot', 'boots', 'jacket', 'jackets', 't-shirt', 't-shirts', 'jeans', 'hat', 'hats',
+  'regalia', 'backdrop', 'branded', 'branding', 'printing', 'id card', 'fog machine',
+  'custom', 'mug', 'mugs', 'photo frames', 'certificate', 'certificates', 'booklets',
+  'shark fins', 'umbrella', 'engraving', 'chip boards', 'diary'
 ];
 const excludeRe = new RegExp('\\b(' + EXCLUDE.join('|') + ')\\b', 'i');
 
@@ -19,7 +20,8 @@ const BRANDS = [
   'Metz', 'Nissin', 'Benro', 'JOBY', 'Zhiyun', 'Manfrotto', 'Gitzo', 'Sirui', 'Vanguard',
   'Hahnel', 'Sigma', 'Tamron', 'Tokina', 'Samyang', 'Rokinon', '7Artisans', 'Meike', 'Hoya',
   'Kenko', 'SanDisk', 'Lexar', 'Kingston', 'Rode', 'BOYA', 'Sennheiser', 'Saramonic',
-  'Lowepro', 'Tenba', 'Peak Design', 'Blackmagic', 'Atomos', 'Kodak', 'Ilford', 'Epson'
+  'Lowepro', 'Tenba', 'Peak Design', 'Blackmagic', 'Atomos', 'Kodak', 'Ilford', 'Epson',
+  'Apple', 'Lenovo', 'Seagate', 'Hollyland', 'LENSGO', 'Kondor', 'Samsung', 'Western Digital'
 ];
 const ALIASES = { fuji: 'Fujifilm' };
 const brandRe = new RegExp('\\b(' + [...BRANDS, ...Object.keys(ALIASES)]
