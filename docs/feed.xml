@@ -209,7 +209,7 @@
   </Offer>
   <Offer>
     <Category><![CDATA[Electronics > Photography > Camera Lenses]]></Category>
-    <ProductName><![CDATA[Sigma APO 170-500mm f/5-6.3 Telephoto Zoom Lens – Canon EF Mount]]></ProductName>
+    <ProductName><![CDATA[Sigma APO 170-500mm f/5-6.3 Telephoto Zoom Lens – Canon EF Mount (Used)]]></ProductName>
     <Manufacturer><![CDATA[Sigma]]></Manufacturer>
     <ModelNumber><![CDATA[APO 170-500mm f/5-6.3]]></ModelNumber>
     <UPC>0</UPC>
@@ -220,13 +220,13 @@
     <SalePrice>7690.00</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/sigma-apo-170-500mm-f-5-6-3-telephoto-zoom-lens-canon-ef-mount?variant=61018064847134</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/fb8771f4-9fe2-49f2-883d-78ff366694b8_pPcjTmgoA.avif?v=1794748898</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[SecondHand - pre-owned product]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Used</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -392,7 +392,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Video Equipment]]></Category>
+    <Category><![CDATA[Electronics > Cables & Adapters]]></Category>
     <ProductName><![CDATA[Kondor Blue Coiled Mini-HDMI to HDMI Cable]]></ProductName>
     <Manufacturer><![CDATA[Kondor]]></Manufacturer>
     <ModelNumber><![CDATA[]]></ModelNumber>
@@ -438,7 +438,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Video Equipment]]></Category>
+    <Category><![CDATA[Electronics > Cables & Adapters]]></Category>
     <ProductName><![CDATA[Ultra Link 1.5m HDMI Cable]]></ProductName>
     <Manufacturer><![CDATA[Photo World Lab]]></Manufacturer>
     <ModelNumber><![CDATA[]]></ModelNumber>
@@ -990,7 +990,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Video Equipment]]></Category>
+    <Category><![CDATA[Electronics > Cables & Adapters]]></Category>
     <ProductName><![CDATA[100m Evolution Hd-sdi Cable In Locking Cable Drum]]></ProductName>
     <Manufacturer><![CDATA[Photo World Lab]]></Manufacturer>
     <ModelNumber><![CDATA[]]></ModelNumber>
@@ -1200,7 +1200,7 @@
     <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
     <ProductName><![CDATA[Blackmagic Design Pocket Cinema Camera 6K G2]]></ProductName>
     <Manufacturer><![CDATA[Blackmagic]]></Manufacturer>
-    <ModelNumber><![CDATA[Cinema Camera 6K]]></ModelNumber>
+    <ModelNumber><![CDATA[Pocket Cinema Camera 6K G2]]></ModelNumber>
     <UPC>0</UPC>
     <EAN>0</EAN>
     <ShopSKU>60093327343902</ShopSKU>
@@ -1821,7 +1821,7 @@
     <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
     <ProductName><![CDATA[Blackmagic Design Pocket Cinema Camera 6K Pro(open box)]]></ProductName>
     <Manufacturer><![CDATA[Blackmagic]]></Manufacturer>
-    <ModelNumber><![CDATA[Cinema Camera 6K]]></ModelNumber>
+    <ModelNumber><![CDATA[Pocket Cinema Camera 6K Pro]]></ModelNumber>
     <UPC>0</UPC>
     <EAN>0</EAN>
     <ShopSKU>60049243832606</ShopSKU>
@@ -2094,10 +2094,10 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Video Equipment]]></Category>
+    <Category><![CDATA[Electronics > Video Equipment > Projectors]]></Category>
     <ProductName><![CDATA[Acer X1328Wi DLP WXGA 5000 Lumens Wireless Projector – HDMI, 3D Support, LumiSense, ColorBoost3D – Black.]]></ProductName>
-    <Manufacturer><![CDATA[Rode]]></Manufacturer>
-    <ModelNumber><![CDATA[Wireless PRO]]></ModelNumber>
+    <Manufacturer><![CDATA[Acer]]></Manufacturer>
+    <ModelNumber><![CDATA[X1328Wi]]></ModelNumber>
     <UPC>0</UPC>
     <EAN>0</EAN>
     <ShopSKU>60011475304734</ShopSKU>
@@ -2290,13 +2290,13 @@
     <SalePrice>9000.00</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/canon-eos-2000d-camera-body-ef-s-18-55mm-f-3-5-5-6-is-ii-lens98-new?variant=59961164300574</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/rn-image_picker_lib_temp_6404a92b-2b5f-4c6a-8575-567e4ff96c9f.webp?v=1789502772</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[Refurbished]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Refurbished</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -2945,7 +2945,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Camera Accessories]]></Category>
+    <Category><![CDATA[Electronics > Cables & Adapters]]></Category>
     <ProductName><![CDATA[Sennheiser Audio Cable – EK 100 LINE CABLE CL 100]]></ProductName>
     <Manufacturer><![CDATA[Sennheiser]]></Manufacturer>
     <ModelNumber><![CDATA[EK 100 LINE CABLE CL 100]]></ModelNumber>
@@ -3015,7 +3015,7 @@
   </Offer>
   <Offer>
     <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
-    <ProductName><![CDATA[Canon EOS 350D Digital SLR camera (SILVER) WITH 18-55 mm lens]]></ProductName>
+    <ProductName><![CDATA[Canon EOS 350D Digital SLR camera (SILVER) WITH 18-55 mm lens (Used)]]></ProductName>
     <Manufacturer><![CDATA[Canon]]></Manufacturer>
     <ModelNumber><![CDATA[EOS 350D]]></ModelNumber>
     <UPC>0</UPC>
@@ -3026,13 +3026,13 @@
     <SalePrice>2500.00</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/canon-eos-350d-digital-slr-camera-silver-with-18-55-mm-lens?variant=59831477043486</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/200921191506_ORIG.webp?v=1787510750</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[SecondHand - pre-owned product]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Used</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -3231,7 +3231,7 @@
     <Description><![CDATA[SanDisk Extreme Pro SD UHS I 32GB Card Experience lightning-fast performance with the SanDisk Extreme PRO SDHC™ and SDXC™ UHS-I Card. With transfer speeds up to 200MB/s, this 32GB card is perfect for capturing stunning 4K UHD video and high-resolution photos without missing a moment. Designed for compatibility with SDXC and SDXC UHS-I devices, it offers reliable, high-quality storage in a compact, multicolour design. Backed by a lifetime limited warranty, this card ensures your memories are safe]]></Description>
     <Price>650.00</Price>
     <SalePrice>650.00</SalePrice>
-    <ProductURL>https://photoworldlab.co.za/products/sandisk-extreme-pro-sdhc™-and-sdxc™-uhs-i-card-32gb?variant=59783342981406</ProductURL>
+    <ProductURL>https://photoworldlab.co.za/products/sandisk-extreme-pro-sdhc%E2%84%A2-and-sdxc%E2%84%A2-uhs-i-card-32gb?variant=59783342981406</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/sdk.sd.extreme_pro_u3_v30_c10_100mb_32gb_front_hr_ecommerce_d1da.webp?v=1786794862</ImageURL>
     <Notes><![CDATA[]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
@@ -3382,7 +3382,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Camera Accessories > Bags & Straps]]></Category>
+    <Category><![CDATA[Electronics > Photography > Camera Accessories > Tripods & Supports]]></Category>
     <ProductName><![CDATA[Neewer Professional Tripod stand, Aluminium + carry bag]]></ProductName>
     <Manufacturer><![CDATA[Neewer]]></Manufacturer>
     <ModelNumber><![CDATA[Professional Tripod Stand]]></ModelNumber>
@@ -3635,7 +3635,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Camera Accessories]]></Category>
+    <Category><![CDATA[Electronics > Cables & Adapters]]></Category>
     <ProductName><![CDATA[TetherTools TetherPro Camera Tether Cable USB-C to 2.0 Micro-B]]></ProductName>
     <Manufacturer><![CDATA[TetherTools]]></Manufacturer>
     <ModelNumber><![CDATA[TetherPro USB-C to 2.0 Micro-B]]></ModelNumber>
@@ -3681,7 +3681,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Camera Lenses]]></Category>
+    <Category><![CDATA[Electronics > Cables & Adapters]]></Category>
     <ProductName><![CDATA[ROXTONE EMPTY CABLE DRUM 235MM]]></ProductName>
     <Manufacturer><![CDATA[Photo World Lab]]></Manufacturer>
     <ModelNumber><![CDATA[]]></ModelNumber>
@@ -3728,7 +3728,7 @@
   </Offer>
   <Offer>
     <Category><![CDATA[Electronics > Photography > Camera Lenses]]></Category>
-    <ProductName><![CDATA[Nikon Af Nikkor 50Mm 1:1.8D Camera Lens]]></ProductName>
+    <ProductName><![CDATA[Nikon Af Nikkor 50Mm 1:1.8D Camera Lens (Used)]]></ProductName>
     <Manufacturer><![CDATA[Nikon]]></Manufacturer>
     <ModelNumber><![CDATA[AF Nikkor 50mm f/1.8D]]></ModelNumber>
     <UPC>0</UPC>
@@ -3739,13 +3739,13 @@
     <SalePrice>2500.00</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/nikon-af-nikkor-50mm-1-1-8d-camera-lens?variant=59725368983838</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/BSNH050597-3786285-1.webp?v=1785668392</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[SecondHand - pre-owned product]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Used</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -3822,7 +3822,7 @@
     <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
     <ProductName><![CDATA[NIKON D5000 with NIKON DX AF-S NIKKOR 18-55mm 1:3.5-5.6G lens]]></ProductName>
     <Manufacturer><![CDATA[Nikon]]></Manufacturer>
-    <ModelNumber><![CDATA[3]]></ModelNumber>
+    <ModelNumber><![CDATA[D5000]]></ModelNumber>
     <UPC>0</UPC>
     <EAN>0</EAN>
     <ShopSKU>51778989424926</ShopSKU>
@@ -3877,13 +3877,13 @@
     <SalePrice>46500.00</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/sony-hxr-nx200-4k-compact-camcorder?variant=59711570903326</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/SonyHXR-NX200_29460f7b-943b-404f-b52d-244552cd9381.webp?v=1785319159</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[Refurbished]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Refurbished</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -3900,13 +3900,13 @@
     <SalePrice>6200.00</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/canon-60d-with-18-55mm-lens?variant=59702504784158</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/canon_60d_body-front-100635_2f896c49-3463-4400-b099-2761506b19a0.webp?v=1785157712</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[Refurbished]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Refurbished</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -4578,7 +4578,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Camera Accessories > Bags & Straps]]></Category>
+    <Category><![CDATA[Electronics > Photography > Camera Accessories > Tripods & Supports]]></Category>
     <ProductName><![CDATA[Manfrotto Pro Video Kit MVH502A Head + 546B Tripod + Unpadded Bag]]></ProductName>
     <Manufacturer><![CDATA[Manfrotto]]></Manufacturer>
     <ModelNumber><![CDATA[MVH502A + 546B]]></ModelNumber>
@@ -5315,7 +5315,7 @@
   </Offer>
   <Offer>
     <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
-    <ProductName><![CDATA[Nikon Z9 Mirrorless Digital Camera Body.]]></ProductName>
+    <ProductName><![CDATA[Nikon Z9 Mirrorless Digital Camera Body. (Used)]]></ProductName>
     <Manufacturer><![CDATA[Nikon]]></Manufacturer>
     <ModelNumber><![CDATA[Z9]]></ModelNumber>
     <UPC>0</UPC>
@@ -5326,13 +5326,13 @@
     <SalePrice>79999.99</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/nikon-z9-mirrorless-digital-camera-bodypre-owned?variant=59520654016798</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/rn-image_picker_lib_temp_667fc344-8efe-4777-8131-b2ed9ab9118e.png?v=1782629568</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[SecondHand - pre-owned product]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Used</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -5659,7 +5659,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Camera Accessories > Batteries & Chargers]]></Category>
+    <Category><![CDATA[Electronics > Photography > Lighting & Studio]]></Category>
     <ProductName><![CDATA[Tolifo PT-30 Bi-Colour LED Light with 2 Batteries and charger.]]></ProductName>
     <Manufacturer><![CDATA[Tolifo]]></Manufacturer>
     <ModelNumber><![CDATA[PT-30]]></ModelNumber>
@@ -6418,7 +6418,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Camera Accessories > Bags & Straps]]></Category>
+    <Category><![CDATA[Electronics > Photography > Lighting & Studio]]></Category>
     <ProductName><![CDATA[Godox MS300 2 x Monolight kit (Bag included).]]></ProductName>
     <Manufacturer><![CDATA[Godox]]></Manufacturer>
     <ModelNumber><![CDATA[MS300 2-Light Kit]]></ModelNumber>
@@ -6694,7 +6694,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Camera Accessories > Bags & Straps]]></Category>
+    <Category><![CDATA[Electronics > Photography > Lighting & Studio]]></Category>
     <ProductName><![CDATA[Triopo k2-65cm Portable Soft box with Carrying Bag]]></ProductName>
     <Manufacturer><![CDATA[Triopo]]></Manufacturer>
     <ModelNumber><![CDATA[K2 65cm Soft Box]]></ModelNumber>
@@ -7085,7 +7085,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Camera Accessories]]></Category>
+    <Category><![CDATA[Electronics > Cables & Adapters]]></Category>
     <ProductName><![CDATA[Replacement AVC-DC400ST Stereo AV Cable]]></ProductName>
     <Manufacturer><![CDATA[Photo World Lab]]></Manufacturer>
     <ModelNumber><![CDATA[]]></ModelNumber>
@@ -7775,7 +7775,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
+    <Category><![CDATA[Electronics > Photography > Camera Lenses]]></Category>
     <ProductName><![CDATA[Nikon 55-200mm DX Lens for NIKON DSLR Cameras(pre-owned)]]></ProductName>
     <Manufacturer><![CDATA[Nikon]]></Manufacturer>
     <ModelNumber><![CDATA[55-200mm DX]]></ModelNumber>
@@ -8583,7 +8583,7 @@
     <Category><![CDATA[Electronics > Photography > Lighting & Studio > Flashes]]></Category>
     <ProductName><![CDATA[Godox TT600 Thinklite Flash]]></ProductName>
     <Manufacturer><![CDATA[Godox]]></Manufacturer>
-    <ModelNumber><![CDATA[20]]></ModelNumber>
+    <ModelNumber><![CDATA[TT600]]></ModelNumber>
     <UPC>0</UPC>
     <EAN>0</EAN>
     <ShopSKU>50752113246494</ShopSKU>
@@ -8638,13 +8638,13 @@
     <SalePrice>75900.00</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/sony-pxw-z190-4k-3-cmos-1-3-sensor-xdcam-camcorder?variant=50738278629662</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/pxw1.webp?v=1774465700</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[Refurbished]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Refurbished</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -8914,13 +8914,13 @@
     <SalePrice>40698.90</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/sony-a7-iv-33mp-full-frame-mirrorless-camera-with-28-70mm-lens?variant=50734616019230</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/a7iv-_-28-70mm-bundle.webp?v=1774374273</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[Refurbished]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Refurbished</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -8960,13 +8960,13 @@
     <SalePrice>45099.99</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/sony-a7r-iva-61mp-full-frame-mirrorless-camera-body?variant=50734607958302</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/7R41.webp?v=1774373743</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[Refurbished]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Refurbished</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -9296,7 +9296,7 @@
     <Category><![CDATA[Electronics > Photography > Camera Accessories > Batteries & Chargers]]></Category>
     <ProductName><![CDATA[Floxi DC Coupler Dummy Battery Kit for Nikon EN-EL14 / EN-EL14A]]></ProductName>
     <Manufacturer><![CDATA[Floxi]]></Manufacturer>
-    <ModelNumber><![CDATA[DC Coupler Dummy Battery Kit for NP-FZ100]]></ModelNumber>
+    <ModelNumber><![CDATA[DC Coupler Dummy Battery Kit for EN-EL14]]></ModelNumber>
     <UPC>0</UPC>
     <EAN>0</EAN>
     <ShopSKU>50729144844574</ShopSKU>
@@ -9342,7 +9342,7 @@
     <Category><![CDATA[Electronics > Photography > Camera Accessories > Batteries & Chargers]]></Category>
     <ProductName><![CDATA[Floxi DC Coupler Dummy Battery Kit for Canon LP-E12 (DR-E15 Replacement)]]></ProductName>
     <Manufacturer><![CDATA[Floxi]]></Manufacturer>
-    <ModelNumber><![CDATA[DC Coupler Dummy Battery Kit for NP-FZ100]]></ModelNumber>
+    <ModelNumber><![CDATA[DC Coupler Dummy Battery Kit for LP-E12]]></ModelNumber>
     <UPC>0</UPC>
     <EAN>0</EAN>
     <ShopSKU>50729141371166</ShopSKU>
@@ -9802,7 +9802,7 @@
     <Category><![CDATA[Electronics > Photography > Camera Accessories > Batteries & Chargers]]></Category>
     <ProductName><![CDATA[Floxi DC Coupler Dummy Battery Kit for Canon LP-E17]]></ProductName>
     <Manufacturer><![CDATA[Floxi]]></Manufacturer>
-    <ModelNumber><![CDATA[DC Coupler Dummy Battery Kit for NP-FZ100]]></ModelNumber>
+    <ModelNumber><![CDATA[DC Coupler Dummy Battery Kit for LP-E17]]></ModelNumber>
     <UPC>0</UPC>
     <EAN>0</EAN>
     <ShopSKU>50729081209118</ShopSKU>
@@ -10823,13 +10823,13 @@
     <SalePrice>14849.99</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/canon-eos-6d-20-2mp-full-frame-dslr-camera-with-50mm-f-1-8-lens?variant=50727269892382</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/SIX5MIXED.webp?v=1774096210</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[Refurbished]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Refurbished</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -10869,13 +10869,13 @@
     <SalePrice>8899.99</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/nikon-d7000-16-2mp-aps-c-dslr-camera-with-18-55mm-vr-lens?variant=50727257211166</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/ChatGPTImageMar21_2026_12_18_11PM.png?v=1774095509</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[Refurbished]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Refurbished</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -11007,13 +11007,13 @@
     <SalePrice>11699.99</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/canon-eos-77d-24-2mp-aps-c-dslr-camera-with-18-55mm-stm-lens?variant=50727121289502</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/canon_1892c002_eos_77d_dslr_camera_1491329149_1318767_6be20eab-fa05-4aeb-9924-584e82ed5071.webp?v=1774080795</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[Refurbished]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Refurbished</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -11225,7 +11225,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Camera Accessories > Batteries & Chargers]]></Category>
+    <Category><![CDATA[Electronics > Photography > Lighting & Studio]]></Category>
     <ProductName><![CDATA[Pro LED 800 Portable Video & Photography Light Kit – Adjustable 3200K–6500K, 800 LED Bulbs, Tripod & Batteries Included]]></ProductName>
     <Manufacturer><![CDATA[Photo World Lab]]></Manufacturer>
     <ModelNumber><![CDATA[]]></ModelNumber>
@@ -11386,7 +11386,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
+    <Category><![CDATA[Electronics > Photography > Camera Lenses]]></Category>
     <ProductName><![CDATA[Canon EF 75-300mm f/4-5.6 III Telephoto Zoom Lens for Canon SLR Cameras(Pre-Owned)]]></ProductName>
     <Manufacturer><![CDATA[Canon]]></Manufacturer>
     <ModelNumber><![CDATA[EF 75-300mm f/4-5.6 III]]></ModelNumber>
@@ -11432,7 +11432,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
+    <Category><![CDATA[Electronics > Photography > Camera Lenses]]></Category>
     <ProductName><![CDATA[Sigma 18-250mm f3.5-6.3 DC MACRO OS HSM for Canon Digital SLR Cameras (Used)]]></ProductName>
     <Manufacturer><![CDATA[Sigma]]></Manufacturer>
     <ModelNumber><![CDATA[18-250mm f/3.5-6.3 DC Macro OS HSM]]></ModelNumber>
@@ -11478,7 +11478,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
+    <Category><![CDATA[Electronics > Photography > Camera Lenses]]></Category>
     <ProductName><![CDATA[Canon RF 100–400mm f/5.6–8 IS USM Mirrorless Lens]]></ProductName>
     <Manufacturer><![CDATA[Canon]]></Manufacturer>
     <ModelNumber><![CDATA[RF 100-400mm f/5.6-8 IS USM]]></ModelNumber>
@@ -11501,7 +11501,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
+    <Category><![CDATA[Electronics > Photography > Camera Lenses]]></Category>
     <ProductName><![CDATA[Canon EF 24-70mm f/2.8L USM Zoom Lens for Canon SLR Cameras (Pre-owned)]]></ProductName>
     <Manufacturer><![CDATA[Canon]]></Manufacturer>
     <ModelNumber><![CDATA[EF 24-70mm f/2.8L USM]]></ModelNumber>
@@ -11593,7 +11593,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
+    <Category><![CDATA[Electronics > Photography > Camera Accessories > Lens Accessories]]></Category>
     <ProductName><![CDATA[Meike MK-C-AF4 EF/EF-S to EOS M Auto Focus Adapte]]></ProductName>
     <Manufacturer><![CDATA[Meike]]></Manufacturer>
     <ModelNumber><![CDATA[MK-C-AF4]]></ModelNumber>
@@ -11617,7 +11617,7 @@
   </Offer>
   <Offer>
     <Category><![CDATA[Electronics > Photography > Camera Accessories > Bags & Straps]]></Category>
-    <ProductName><![CDATA[Canon EOS Camera Bag]]></ProductName>
+    <ProductName><![CDATA[Canon EOS Camera Bag (Used)]]></ProductName>
     <Manufacturer><![CDATA[Canon]]></Manufacturer>
     <ModelNumber><![CDATA[]]></ModelNumber>
     <UPC>0</UPC>
@@ -11628,13 +11628,13 @@
     <SalePrice>510.00</SalePrice>
     <ProductURL>https://photoworldlab.co.za/products/canon-eos-camera-bag?variant=50637306888478</ProductURL>
     <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/Gemini_Generated_Image_hnhti9hnhti9hnht.png?v=1771767714</ImageURL>
-    <Notes><![CDATA[]]></Notes>
+    <Notes><![CDATA[SecondHand - pre-owned product]]></Notes>
     <StockAvailability>In Stock</StockAvailability>
     <StockLevel>5</StockLevel>
     <Attributes>
       <Attribute>
         <Name>Condition</Name>
-        <Value>New</Value>
+        <Value>Used</Value>
       </Attribute>
     </Attributes>
   </Offer>
@@ -12306,7 +12306,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Computers > Storage > Memory Cards]]></Category>
+    <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
     <ProductName><![CDATA[Sony Alpha a7S III Mirrorless Digital Camera with FREE Sony 80GB CFexpress Type A TOUGH Memory Card (Valued at R6,390) (Used)]]></ProductName>
     <Manufacturer><![CDATA[Sony]]></Manufacturer>
     <ModelNumber><![CDATA[Alpha A7S III]]></ModelNumber>
@@ -12375,7 +12375,7 @@
     </Attributes>
   </Offer>
   <Offer>
-    <Category><![CDATA[Electronics > Audio > Microphones & Recorders]]></Category>
+    <Category><![CDATA[Electronics > Photography > Camcorders]]></Category>
     <ProductName><![CDATA[Panasonic AG-AC30 Camcorder – Full HD, 24x Zoom, XLR Inputs - Pre-Owned]]></ProductName>
     <Manufacturer><![CDATA[Panasonic]]></Manufacturer>
     <ModelNumber><![CDATA[AG-AC30]]></ModelNumber>
@@ -12654,7 +12654,7 @@
     <Category><![CDATA[Electronics > Photography > Digital Cameras]]></Category>
     <ProductName><![CDATA[Canon EOS 5D Mark II with 50mm lens ( Used )]]></ProductName>
     <Manufacturer><![CDATA[Canon]]></Manufacturer>
-    <ModelNumber><![CDATA[CAM-CAN-5D-BLK-BODY]]></ModelNumber>
+    <ModelNumber><![CDATA[EOS 5D Mark II]]></ModelNumber>
     <UPC>0</UPC>
     <EAN>0</EAN>
     <ShopSKU>50184739455262</ShopSKU>
