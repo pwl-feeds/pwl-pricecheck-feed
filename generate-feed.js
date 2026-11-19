@@ -19,7 +19,11 @@ const excludeRe = new RegExp('\\b(' + EXCLUDE.join('|') + ')\\b', 'i');
 // Condition detection
 const REFURB_RE = /\brefurbish(ed)?\b/i;
 const USED_RE = /\b(used|pre-?owned|pre owned|second[- ]?hand|open[- ]box)\b/i;
-const DESC_NOT_NEW_RE = /condition\s*:?\s*(used|pre-?owned|second|very good|good|fair|excellent|like new)/i;
+const HANDLE_USED_RE = /(^|-)(used|second-?hand)(-|$)|pre-?owned|open-?box/i;
+const DESC_USED_RE = new RegExp(
+  'condition\\s*:?\\s*\\(?\\s*(used|pre-?owned|second|very good|good|fair|excellent|like new|fairly|\\d)' +
+  '|\\b(very good|good|excellent|fair|well maintained)\\s+(working\\s+)?condition\\b' +
+  '|\\b(fairly used|pre-?owned|second-?hand)\\b', 'i');
 
 const BRANDS = [
   'Canon', 'Sony', 'Nikon', 'Panasonic', 'Fujifilm', 'Olympus', 'Pentax', 'Ricoh', 'Leica',
@@ -47,19 +51,25 @@ function detectBrand(title, vendor) {
 
 // Category paths (PriceCheck wants the full path joined with " > ")
 const CATS = [
+  [/projector/i, 'Electronics > Video Equipment > Projectors'],
   [/\b(energizer|duracell)\b|\b9v\b|extension cord|multi-?plug/i, 'Electronics > Batteries & Power'],
+  [/\bled\b.*\blight\b|\blight kit\b|softbox|soft box|monolight|light stand|reflector|strobe|beauty dish/i, 'Electronics > Photography > Lighting & Studio'],
   [/battery grip/i, 'Electronics > Photography > Camera Accessories > Battery Grips'],
   [/charger|battery|batteries|\ben-el|\blp-e|\bnp-f|\bnb-\d|\bbp-/i, 'Electronics > Photography > Camera Accessories > Batteries & Chargers'],
+  [/tripod|monopod/i, 'Electronics > Photography > Camera Accessories > Tripods & Supports'],
   [/\bbag\b|backpack|pouch|holster|strap|\bcover\b|wrist|\bcase\b/i, 'Electronics > Photography > Camera Accessories > Bags & Straps'],
-  [/lens cap|lens hood|body cap|\bcap\b|\bhood\b|filter|\buv\b|\bcpl\b|adapter|adaptor|eyecup|cleaning|colorchecker/i, 'Electronics > Photography > Camera Accessories > Lens Accessories'],
+  [/lens cap|lens hood|body cap|\bcap\b|\bhood\b|filter|\buv\b|\bcpl\b|adapt(er|or|e)\b|eyecup|cleaning|colorchecker/i, 'Electronics > Photography > Camera Accessories > Lens Accessories'],
   [/flash|speedl/i, 'Electronics > Photography > Lighting & Studio > Flashes'],
   [/osmo (pocket|action)/i, 'Electronics > Photography > Digital Cameras'],
-  [/tripod|monopod|slider|gimbal|stabili[sz]er|ronin|\brs ?\d|osmo mobile|handle|\bcage\b|\brig\b|bracket|selfie|matte box|plate/i, 'Electronics > Photography > Camera Accessories > Tripods & Supports'],
+  [/slider|gimbal|stabili[sz]er|ronin|\brs ?\d|osmo mobile|handle|\bcage\b|\brig\b|bracket|selfie|matte box|plate/i, 'Electronics > Photography > Camera Accessories > Tripods & Supports'],
   [/\b(led|light|softbox|soft box|reflector|background|seamless|light stand|monolight|beauty dish|bowens|strobe|panel|tube)\b/i, 'Electronics > Photography > Lighting & Studio'],
+  [/\bxa ?\d|\bxf ?\d|hxr|pxw|\bag-|\bhc-|fdr|legria|cr-n100|ptz/i, 'Electronics > Photography > Camcorders'],
   [/headphone|hd 280|mdr-/i, 'Electronics > Audio > Headphones'],
   [/microphone|\bmic\b|lavalier|wireless go|videomic|xlr|recorder|rodecaster|podmic|boom|windshield|shotgun|\blark\b|minifuse/i, 'Electronics > Audio > Microphones & Recorders'],
+  [/\bcable\b|\bdrum\b/i, 'Electronics > Cables & Adapters'],
   [/drone|mavic|mini 5|mini 4k|air 3/i, 'Electronics > Drones & Accessories'],
-  [/camcorder|\bxa ?\d|\bxf ?\d|hxr|pxw|\bag-|\bhc-|fdr|legria|hdv|cr-n100|ptz/i, 'Electronics > Photography > Camcorders'],
+  [/camcorder/i, 'Electronics > Photography > Camcorders'],
+  [/(mirrorless|dslr|digital)\b.*\bcamera\b/i, 'Electronics > Photography > Digital Cameras'],
   [/sd card|sdhc|sdxc|cfexpress|memory card|card reader/i, 'Electronics > Computers > Storage > Memory Cards'],
   [/hard drive|\bssd\b|passport|external/i, 'Electronics > Computers > Storage > External Drives'],
   [/macbook|laptop|lenovo|\bloq\b/i, 'Electronics > Computers > Laptops'],
@@ -67,6 +77,7 @@ const CATS = [
   [/instax|instant film/i, 'Electronics > Photography > Instant Film & Cameras'],
   [/printer|selphy|photo paper|ribbon|variety pack|cd-r|dvd-r|pvc|\bpaper\b/i, 'Electronics > Computers > Printers & Supplies'],
   [/hdmi|capture|transmitter|teleprompter|\bsdi\b|monitor|atem|pyro|cosmo/i, 'Electronics > Video Equipment'],
+  [/^\S+\s+(\S+\s+)?\d{2,3}([-\u2013]\d{2,3})?\s?mm\b/i, 'Electronics > Photography > Camera Lenses'],
   [/mirrorless|dslr|\beos\b|\bd\d{2,4}\b|\b\d{2,4}d\b|\b[5-7]d\b|\bz\d{1,2}\b|alpha|\ba\d{1,4}[a-z]{0,2}\b|ilce|zv-|powershot|coolpix|ixus|\belph\b|lumix|\bdmc|cinema camera|\bfx3|\bfx30|digital camera|\bslr\b|gopro|insta360|\bm50\b/i, 'Electronics > Photography > Digital Cameras'],
   [/\blens(e)?\b|\d+(-\d+)?mm|f\/\d|nikkor|sigma|tamron/i, 'Electronics > Photography > Camera Lenses']
 ];
@@ -150,7 +161,9 @@ function clean(desc, fallback) {
     const desc = stripHtml(p.body_html);
     let condition = 'New';
     if (REFURB_RE.test(haystack)) condition = 'Refurbished';
-    else if (USED_RE.test(haystack) || DESC_NOT_NEW_RE.test(desc)) condition = 'Used';
+    else if (USED_RE.test(haystack) || HANDLE_USED_RE.test(p.handle)) condition = 'Used';
+    else if (REFURB_RE.test(desc)) condition = 'Refurbished';
+    else if (DESC_USED_RE.test(desc)) condition = 'Used';
 
     let title = p.title.replace(/\s+/g, ' ').trim();
     if (condition === 'Used' && !USED_RE.test(title)) title += ' (Used)';
@@ -168,7 +181,8 @@ function clean(desc, fallback) {
 
       const variantName = v.title && v.title !== 'Default Title' ? limitWords(`${title} - ${v.title}`, 25) : name;
       const brand = ov.brand || detectBrand(p.title, p.vendor);
-      const model = ov.mpn || v.sku || '';
+      const cleanSku = /^\d{1,3}$/.test(String(v.sku || '').trim()) ? '' : (v.sku || '');
+      const model = ov.mpn || cleanSku;
       if (!model) {
         noModel++;
         if (!missing.has(p.handle)) missing.set(p.handle, { title: p.title, brand });
@@ -191,7 +205,7 @@ function clean(desc, fallback) {
     <Description>${cdata(clean(desc, variantName))}</Description>
     <Price>${regular.toFixed(2)}</Price>
     <SalePrice>${price.toFixed(2)}</SalePrice>
-    <ProductURL>${esc(`${STORE}/products/${p.handle}?variant=${v.id}`)}</ProductURL>
+    <ProductURL>${esc(`${STORE}/products/${encodeURIComponent(p.handle)}?variant=${v.id}`)}</ProductURL>
     <ImageURL>${esc(img.src)}</ImageURL>
     <Notes>${cdata(notes)}</Notes>
     <StockAvailability>In Stock</StockAvailability>
