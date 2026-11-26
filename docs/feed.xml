@@ -1,6 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Offers>
   <Offer>
+    <Category><![CDATA[Electronics > Photography > Camcorders]]></Category>
+    <ProductName><![CDATA[Sony HXR-NX800 4K 1" Sensor NXCAM Camcorder.]]></ProductName>
+    <Manufacturer><![CDATA[Sony]]></Manufacturer>
+    <ModelNumber><![CDATA[]]></ModelNumber>
+    <UPC>0</UPC>
+    <EAN>0</EAN>
+    <ShopSKU>61137440342302</ShopSKU>
+    <Description><![CDATA[SHORT DESCRIPTION. ●Single 1" Exmor RS CMOS Sensor ●Up to UHD 4K60 HDR with HLG ●HDMI Output, 2.4/5 GHz Live Streaming ●AI-Powered Autofocus and Auto-Framing ●20x Optical, 30x Clear Image Zoom in 4K ●4K120 and 1080p240 High-Frame Rates ●XAVC S-I, HS-L, S-L, HD/QFHD Recording ●S-Cinetone, ITU709, 709tone, HLG Options ●Dual CFexpress Type-A/SD Card Slots ●4-Channel Audio, Monitor and Control App The Sony HXR NX 800 offers a long 20x optical zoom with built-in dual-band 2.4/5 GHz Wi-Fi and Ethernet]]></Description>
+    <Price>61000.00</Price>
+    <SalePrice>59990.00</SalePrice>
+    <ProductURL>https://photoworldlab.co.za/products/sony-hxr-nx800-4k-1-sensor-nxcam-camcorder?variant=61137440342302</ProductURL>
+    <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/1000291021.png?v=1795624241</ImageURL>
+    <Notes><![CDATA[]]></Notes>
+    <StockAvailability>In Stock</StockAvailability>
+    <StockLevel>5</StockLevel>
+    <Attributes>
+      <Attribute>
+        <Name>Condition</Name>
+        <Value>New</Value>
+      </Attribute>
+    </Attributes>
+  </Offer>
+  <Offer>
+    <Category><![CDATA[Electronics > Photography > Camera Lenses]]></Category>
+    <ProductName><![CDATA[Canon RF-S 10-18mm f/4.5-6.3 IS STM Lens]]></ProductName>
+    <Manufacturer><![CDATA[Canon]]></Manufacturer>
+    <ModelNumber><![CDATA[]]></ModelNumber>
+    <UPC>0</UPC>
+    <EAN>0</EAN>
+    <ShopSKU>61137315660062</ShopSKU>
+    <Description><![CDATA[SHORT DESCRIPTION ●APS-C | f/4.5-6.3 to f/32 ●16-29mm (Full-Frame Equivalent) ●STM Stepping AF Motor ●7-Blade Diaphragm ●Optical Image Stabilizer ●One Aspherical Element, Two UD Elements It comes with a one year warranty from Photo World Lab.]]></Description>
+    <Price>8000.00</Price>
+    <SalePrice>7250.00</SalePrice>
+    <ProductURL>https://photoworldlab.co.za/products/canon-rf-s-10-18mm-f-4-5-6-3-is-stm-lens?variant=61137315660062</ProductURL>
+    <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/1000291005.png?v=1795623859</ImageURL>
+    <Notes><![CDATA[]]></Notes>
+    <StockAvailability>In Stock</StockAvailability>
+    <StockLevel>5</StockLevel>
+    <Attributes>
+      <Attribute>
+        <Name>Condition</Name>
+        <Value>New</Value>
+      </Attribute>
+    </Attributes>
+  </Offer>
+  <Offer>
     <Category><![CDATA[Electronics > Photography > Camera Lenses]]></Category>
     <ProductName><![CDATA[Nikon Z 24-120mm f/4 S Lens]]></ProductName>
     <Manufacturer><![CDATA[Nikon]]></Manufacturer>
@@ -5678,29 +5724,6 @@
       <Attribute>
         <Name>Condition</Name>
         <Value>New</Value>
-      </Attribute>
-    </Attributes>
-  </Offer>
-  <Offer>
-    <Category><![CDATA[Electronics > Photography > Camera Lenses]]></Category>
-    <ProductName><![CDATA[Tamron AF 70-300mm F4-5.6 for Nikon (Used)]]></ProductName>
-    <Manufacturer><![CDATA[Tamron]]></Manufacturer>
-    <ModelNumber><![CDATA[AF 70-300mm f/4-5.6]]></ModelNumber>
-    <UPC>0</UPC>
-    <EAN>0</EAN>
-    <ShopSKU>59504984752414</ShopSKU>
-    <Description><![CDATA[Tamron AF 70-300mm F4-5.6 for Nikon (Used)]]></Description>
-    <Price>1650.00</Price>
-    <SalePrice>1650.00</SalePrice>
-    <ProductURL>https://photoworldlab.co.za/products/tamron-af-70-300mm-f4-5-6-for-nikon-used?variant=59504984752414</ProductURL>
-    <ImageURL>https://cdn.shopify.com/s/files/1/0956/2036/6622/files/TAMRONFORNIKON2.webp?v=1782260489</ImageURL>
-    <Notes><![CDATA[SecondHand - pre-owned product]]></Notes>
-    <StockAvailability>In Stock</StockAvailability>
-    <StockLevel>5</StockLevel>
-    <Attributes>
-      <Attribute>
-        <Name>Condition</Name>
-        <Value>Used</Value>
       </Attribute>
     </Attributes>
   </Offer>
